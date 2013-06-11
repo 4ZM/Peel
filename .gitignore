@@ -1,1 +1,4 @@
-rx.exe
+*.exe
+*.dll
+*.il
+*.res
