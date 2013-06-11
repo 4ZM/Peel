@@ -1,0 +1,13 @@
+﻿<Window x:Class="basicwpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Pwn Me!" Height="165" Width="245">
+  <Grid>
+    <TextBox x:Name="status_"  IsEnabled="False" HorizontalAlignment="Left" Height="23" Margin="8,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+    <TextBox x:Name="passwd_" HorizontalAlignment="Left" Height="23" Margin="8,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_"/>
+    <Label Content="Password:" HorizontalAlignment="Left" Margin="8,63,0,0" VerticalAlignment="Top"/>
+    <Label Content="Status:" HorizontalAlignment="Left" Margin="8,9,0,0" VerticalAlignment="Top"/>
+    <Button Content="Check" HorizontalAlignment="Left" Margin="133,90,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_"/>
+
+  </Grid>
+</Window>
